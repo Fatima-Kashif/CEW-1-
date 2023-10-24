@@ -1,0 +1,100 @@
+// #include <stdio.h>
+
+TASK 1:
+
+/*int main() {
+     int ID;
+    float worked_hrs;
+    float amt_hr;
+    float month_salary;
+    printf("Enter your ID:\n");
+	scanf("%d",&ID);
+	printf("Enter your total worked hours in a month:\n");
+	scanf("%f",&worked_hrs);
+	printf("Enter the amount received per hour:\n");
+	scanf("%f",&amt_hr);
+	month_salary=("%f",worked_hrs*amt_hr);
+	printf("Your employee ID is: %d\n",ID);
+	printf("Your monthly salary is: %.2f",month_salary);
+	
+    return 0;
+}*/
+
+
+TASK 2:
+	
+/*int main() {
+     float height;
+     float width;
+     printf("Enter the height of rectangle:");
+     scanf("%f",&height);
+     printf("Enter the width of rectangle:");
+     scanf("%f",&width);
+     printf("Area of rectangle is: %f\n", height*width,"\n");
+     printf("Perimeter of rectangle is: %f", 2*(height+width));
+     return 0;
+}
+	*/
+	
+	
+TASK 3:	
+/*
+int main() {
+     float height;
+     printf("Enter your height in cm:");
+     scanf("%f",&height);
+     if (height<150){
+         printf("Dwarf height");
+     }
+     else if(height==150){
+         printf("Average height");
+     }
+     else if(height>165){
+         printf("Tall height");
+     }
+     return 0;
+}*/
+
+
+TASK 4:
+/*void convert(int n){
+    if(n>=1){
+        convert(n/2);
+        printf("%d",n%2);
+	}
+}
+int main()
+{
+    int num;
+    printf("enter a decimal number:");
+    scanf("%d",&num);
+    cnvrt(num);
+    return 0;
+
+}*/
+
+
+TASK 5:
+	
+/*void calc(int num){
+    int x=1;
+    int y=1;
+    int z=0;
+    printf("%d\n",x);
+    printf("%d\n",y);
+    for(int i=0;i<num;i++){
+        z=x+y;
+        x=y;
+        y=z;
+        printf("%d\n",z);
+	}
+}
+int main()
+{
+    int num;
+    printf("How many terms of fibonacci series do u want?:");
+    scanf("%d",&num);
+    calc(num);
+    return 0;
+}
+
