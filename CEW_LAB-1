@@ -68,7 +68,7 @@ int main()
     int num;
     printf("enter a decimal number:");
     scanf("%d",&num);
-    cnvrt(num);
+    convert(num);
     return 0;
 
 }*/
@@ -97,4 +97,4 @@ int main()
     calc(num);
     return 0;
 }
-
+*/
